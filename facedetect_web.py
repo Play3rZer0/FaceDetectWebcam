@@ -3,7 +3,7 @@ import cv2
 import sys
 
 # Specify the path where Haar Cascade XML file is located
-cascPath = "haarcascade_frontalface_default.xml"
+cascPath = <path to haar cascade file>
 faceCascade = cv2.CascadeClassifier(cascPath)
 
 # Prepare capture from webcam
