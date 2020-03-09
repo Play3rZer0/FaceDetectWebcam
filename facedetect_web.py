@@ -17,9 +17,9 @@ while True:
 
     faces = faceCascade.detectMultiScale(
         gray,
-        scaleFactor=1.1,
-        minNeighbors=5,
-        minSize=(30, 30),
+        scaleFactor=<x.x>,
+        minNeighbors=<x>,
+        minSize=(xx, xx),
         flags=cv2.CASCADE_SCALE_IMAGE
     )
 
