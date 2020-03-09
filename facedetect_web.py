@@ -15,9 +15,11 @@ while True:
 
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
+# You must enter the values for the parameters denoted with an x
+
     faces = faceCascade.detectMultiScale(
         gray,
-        scaleFactor=<x.x>,
+        scaleFactor=<x>,
         minNeighbors=<x>,
         minSize=(xx, xx),
         flags=cv2.CASCADE_SCALE_IMAGE
