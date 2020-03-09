@@ -30,6 +30,8 @@ while True:
 # Show the frame
     cv2.imshow('Video', frame)
 
+# Quit the program with the 'q' key is pressed
+
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
